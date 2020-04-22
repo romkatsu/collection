@@ -1,7 +1,7 @@
 # Type Collection
 
 
-###Usage StringCollection and IntegerCollection
+### Usage StringCollection and IntegerCollection
 
 
 ```php
@@ -13,7 +13,7 @@
 });
 ```
 
-###Usage InstanceCollection
+### Usage InstanceCollection
 
 ```php
 use Collection\InstanceCollection;
