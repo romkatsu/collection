@@ -1,0 +1,24 @@
+{
+    "name": "romkatsu/collection",
+    "type": "library",
+    "description": "Collection",
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4",
+        "ext-json": "*",
+        "ext-dom": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Collection\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Collection\\Tests\\": "tests"
+        }
+    }
+}
